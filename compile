@@ -1,0 +1,19 @@
+# compile
+
+printf "\e[0;36m* CMPL: \e[0;33mCreating ./bin/\n\e[0m";
+mkdir -p bin
+if [ "$1" != "-nc" ]; then
+    if [ "$(grep -Ei 'debian|buntu|mint' /etc/*release)" ]; then
+		printf "\e[0;36m* CMPL: \e[0;33mChecking if fpc is installed\n\e[0m"
+		sudo apt install fpc
+    else
+        printf "\e[0;36m* CMPL: \e[0;33mYour distro is not debian-based, please make sure you have fpc installed.\n\e[0m"
+    fi
+fi
+printf "\e[0;36m* CMPL: \e[0;33mCompiling...\n\e[0m";
+
+if fpc src/main.pas -o"bin/app" -O4; then
+    printf "\e[0;36m* CMPL: \e[0;32mCompiled Succesfully\n";
+else
+    printf "\e[0;36m* CMPL: \e[0;31mCompilation Failed\n";
+fi
