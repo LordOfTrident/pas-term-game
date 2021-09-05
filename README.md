@@ -4,11 +4,11 @@
 	<a href="./LICENSE">
 		<img alt="License" src="https://img.shields.io/badge/license-GNU-blue?color=7aca00"/>
 	</a>
-	<a href="https://github.com/LordsTrident/pas-term-game/issues">
-		<img alt="Issues" src="https://img.shields.io/github/issues/LordsTrident/pas-term-game?color=0088ff"/>
+	<a href="https://github.com/LordOfTrident/pas-term-game/issues">
+		<img alt="Issues" src="https://img.shields.io/github/issues/LordOfTrident/pas-term-game?color=0088ff"/>
 	</a>
-	<a href="https://github.com/LordsTrident/pas-term-game/pulls">
-		<img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/LordsTrident/pas-term-game?color=0088ff"/>
+	<a href="https://github.com/LordOfTrident/pas-term-game/pulls">
+		<img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/LordOfTrident/pas-term-game?color=0088ff"/>
 	</a>
 	<br><br><br>
 	<img width="700px" src="pic/img.png"/>
