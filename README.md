@@ -1,7 +1,18 @@
-# Pascal Terminal Game
-Just a simple 2D terminal game made in Pascal
-
-<img src="pic/image.png"/>
+<h1 align="center">Pascal Terminal Game</h2>
+<p align="center">Just a simple 2D terminal game made in Pascal</p>
+<p align="center">
+	<a href="./LICENSE">
+		<img alt="License" src="https://img.shields.io/badge/license-GNU-blue?color=7aca00"/>
+	</a>
+	<a href="https://github.com/LordsTrident/trident-editor/issues">
+		<img alt="Issues" src="https://img.shields.io/github/issues/LordsTrident/trident-editor?color=0088ff"/>
+	</a>
+	<a href="https://github.com/LordsTrident/trident-editor/pulls">
+		<img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/LordsTrident/trident-editor?color=0088ff"/>
+	</a>
+	<br><br><br>
+	<img width="700px" src="pic/img.png"/>
+</p>
 
 ## Compiling and running
 #### Linux
@@ -41,7 +52,7 @@ If you use a character not listed here, it will be turned into a floor.
 To run your map, simply put the file name in the program command line parameters (you can put multiple file names and multiple maps will be ran after eachother)
 
 ## Controls
-`WASD` - Move
-Space - Shoot
-`CTRL`+`Q` - Quit
-`CTRL`+`N` - Quit the current map and go to the next one
+- `WASD` - Move
+- Space - Shoot
+- `CTRL`+`Q` - Quit
+- `CTRL`+`N` - Quit the current map and go to the next one
