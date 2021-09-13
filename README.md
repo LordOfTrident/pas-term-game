@@ -2,7 +2,7 @@
 <p align="center">Just a simple 2D terminal game made in Pascal</p>
 <p align="center">
 	<a href="./LICENSE">
-		<img alt="License" src="https://img.shields.io/badge/license-GNU-blue?color=7aca00"/>
+		<img alt="License" src="https://img.shields.io/badge/license-GPL-blue?color=7aca00"/>
 	</a>
 	<a href="https://github.com/LordOfTrident/pas-term-game/issues">
 		<img alt="Issues" src="https://img.shields.io/github/issues/LordOfTrident/pas-term-game?color=0088ff"/>
